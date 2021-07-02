@@ -8,6 +8,8 @@
 </head>
 <body>
 
+ <h1>Create an Account</h1>
+    
 <form action="myfile.php" method="post">
 Name: <input type="text" name="name">
 <br/>
@@ -18,7 +20,9 @@ Email: <input type="email" email="email">
 Password: <input type="password" name="password">
 <br/>
 <input type="submit" name="Register">
-
+    
+<p> Already have an account? Log In</p>
+ 
 <?php
 echo $_POST["name"]
 ?>
